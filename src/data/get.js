@@ -3,7 +3,7 @@ import axios from 'axios'
 
 
 const apiKey = "3211c2cfb098bcb1898305d3629dc6aa";
-const spoApiKey = "BQCHElGmi4e6MfVtCbueJ1zbjfnlJvNGEI6F6feswcxWiP_Z1sZvLc-FJjaw5jlgBbUvG8CfPvwofqva0BopQ3hKFpzEufvsPRALXpFmgLL46_Zf-2o";
+const spoApiKey = "SPOTIFY_API_KEY";
 const myurl = `https://api.spotify.com/v1/artists?ids=7rEIUw67hRTgievwuKQGSj,7gobcoscOfsY0nOeqqFzvU`;
 
 
