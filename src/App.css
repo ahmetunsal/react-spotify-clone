@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.gabarito {
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gabarito-600 {
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.gabarito-900 {
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.searchBox {
+  border: 1px solid black!important;
+}
+.searchBox.active {
+  border: 1px solid white!important;
+}
+
+
+.btnActive.active {
+  opacity: 100;
+  color: rgba(29,185,84,255);
+}
+
+
+.hoverCard {
+  background-size: 0 100%;
+  background: linear-gradient(to top, #fff #ffffff00);
+  transition: all .2s ease;
+}
+
+.hoverCard:hover {
+  background-size: 100% 100%;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px; 
+  height: 8px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+
+
+
+
