@@ -6,6 +6,8 @@
   and opinions are very important. If you have ideas and opinions, feel free to contact me via the links in my profile!
 </h3>
 
+## [Site is avaiable in production (but not includes the data :/)](https://react-spotify-clone-beta-snowy.vercel.app/)
+
 ## API Key must be obtained from Spotify in order to run the project. 
 ## [See More From Spotify Developers](https://developer.spotify.com/documentation/web-api/tutorials/getting-started)
 (If you're my instructor, please contact me)
