@@ -68,7 +68,7 @@ const Artist = () => {
     relatedArtistList();
     artistAlbums();
     artistTopTracks();
-  }, []);
+  }, [artistId]);
 
   useEffect(() => {
     if (!topTracks || !artist) return;

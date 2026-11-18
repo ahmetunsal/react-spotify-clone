@@ -31,7 +31,7 @@ const Playlist = () => {
   const [artistAlbums, setArtistAlbums] = useState();
   const [color, setColor] = useState("");
 
-  useState(() => {
+  useEffect(() => {
     const playlistList = async () => {
       const recievedPlaylist = await getTracks(playlistId);
       console.log(recievedPlaylist);
@@ -40,9 +40,10 @@ const Playlist = () => {
     };
 
     playlistList();
-  }, []);
+  }, [playlistId]);
 
   useEffect(() => {
+    if (!playlist) return;
     const artistAlbums = async () => {
       const recievedAlbums = await getArtistAlbums(playlist.artists[0].id);
       console.log("ARTIST",recievedAlbums);
@@ -152,7 +153,7 @@ const Playlist = () => {
           </div>
         </div>
         <div className="w-full mt-10 mb-10">
-          <Section title={`Daha fazla ${artistAlbums.items[0].artists[0].name}`}>
+          <Section title={`Daha fazla ${artistAlbums.items?.[0]?.artists?.[0]?.name || playlist.artists[0].name}`}>
             <CardList>
               {artistAlbums.items && artistAlbums.items.slice(0,Math.round(Math.random() * 10)).map((cardInfo, i) => {
                 return <AlbumCard key={i} cardInfo={cardInfo} />;

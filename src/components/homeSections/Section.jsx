@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import CardList from '../../lists/artistList/CardList'
 import ArtistCard from '../../components/player/artist/ArtistCard'
 import { Link } from 'react-router-dom'
-import { getArtists, getRecommendSpo } from "../../data/get";
 import AlbumCard from "../player/artist/AlbumCard";
 
 const Section = ({ children, title, showAll = true }) => {

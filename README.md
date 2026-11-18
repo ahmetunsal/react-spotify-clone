@@ -6,67 +6,69 @@
   and opinions are very important. If you have ideas and opinions, feel free to contact me via the links in my profile!
 </h3>
 
-## [Site is avaiable in production (but not includes the data :/)](https://react-spotify-clone-beta-snowy.vercel.app/)
+## [Site is available in production](https://react-spotify-clone-beta-snowy.vercel.app/)
 
-## API Key must be obtained from Spotify in order to run the project. 
-## [See More From Spotify Developers](https://developer.spotify.com/documentation/web-api/tutorials/getting-started)
-(If you're my instructor, please contact me)
+> **Update:** No Spotify API key is required anymore! The project now fetches live Turkey charts, artists, albums, tracks, and genres via the keyless Deezer Public API (proxied through Vite / Vercel serverless) with a local Turkish music fallback.
 
-## A few photos included in the project
+## Running Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Screenshots
 ### *Language preference in the project is Turkish
+
 <div>
   <h3>Login Page</h3>
-  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/login.png?raw=true"  />
+  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/login.png?raw=true" />
 </div>
 <div>
   <h3>Register Page</h3>
-  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/register.png?raw=true"  />
+  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/register.png?raw=true" />
 </div>
 <div>
   <h3>Home Page</h3>
-  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/home_page_first.png?raw=true"  />
+  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/home_page_first.png?raw=true" />
 </div>
 <div>
   <h3>Home Page - 2</h3>
-  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/home_page_second.png?raw=true"  />
+  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/home_page_second.png?raw=true" />
 </div>
 <div>
   <h3>Artist Page</h3>
-  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/artist_page_first.png?raw=true"  />
+  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/artist_page_first.png?raw=true" />
 </div>
 <div>
   <h3>Artist Page - 2</h3>
-  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/artist_page_second.png?raw=true"  />
+  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/artist_page_second.png?raw=true" />
 </div>
 <div>
   <h3>Album Page</h3>
-  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/album_first.png?raw=true"  />
+  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/album_first.png?raw=true" />
 </div>
 <div>
   <h3>Album Page - 2</h3>
-  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/album_second.png?raw=true"  />
-</div>
+  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/album_second.png?raw=true" />
 </div>
 <div>
   <h3>Playlist Page</h3>
-  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/playlist_first.png?raw=true"  />
-</div>
+  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/playlist_first.png?raw=true" />
 </div>
 <div>
   <h3>Playlist Page - 2</h3>
-  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/playlist_second.png?raw=true"  />
+  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/playlist_second.png?raw=true" />
 </div>
 <div>
   <h3>Search Page</h3>
-  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/search.png?raw=true"  />
+  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/search.png?raw=true" />
 </div>
 <div>
   <h3>Loading Page</h3>
-  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/loading_page.png?raw=true"  />
+  <img src="https://github.com/ahmetunsal/react-spotify-clone/blob/master/public/my_screenshot/loading_page.png?raw=true" />
 </div>
 
 <div>
   <h1 align="center">That's all (for now!)</h1>
 </div>
-
-

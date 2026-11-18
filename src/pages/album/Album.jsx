@@ -30,7 +30,7 @@ const Album = () => {
   const [artistAlbums, setArtistAlbums] = useState();
   const [color, setColor] = useState("");
 
-  useState(() => {
+  useEffect(() => {
     const albumList = async () => {
       const recievedAlbum = await getAlbum(albumId);
       console.log(recievedAlbum);
@@ -45,9 +45,10 @@ const Album = () => {
 
     albumList();
     tracksList();
-  }, []);
+  }, [albumId]);
 
   useEffect(() => {
+    if (!album) return;
     const artistAlbums = async () => {
       const recievedAlbums = await getArtistAlbums(album.artists[0].id);
       console.log("ARTIST", recievedAlbums);
